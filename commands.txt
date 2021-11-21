@@ -1,0 +1,7 @@
+pipenv shell
+pipenv django
+pipenv install djangorestframework
+django-admin startproject crypto
+python manage.py runserver
+python manage.py startapp api
+python manage.py makemigrations
